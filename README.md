@@ -127,7 +127,7 @@ python -m tools.api_server --listen 0.0.0.0:8080 --llama-checkpoint-path "checkp
 **Note:** You may want to use --compile to fuse cuda kernels for faster inference (~30 tokens/sec -> ~500 tokens/sec).
 Correspondingly, if you do not plan to use acceleration, you can comment out the --compile parameter.
 For GPUs that don't support bf16, you may need to use the --half option.
-(--compile still need c++ environments and cuda support.)
+(--compile still need c++ environments.)
 
 Finally, you can add the wav files as the target audio to the reference folder,  and the lab file describe the context of the wav file is need. All of them should be named as the same name.
 
@@ -149,10 +149,6 @@ conda activate unsloth_env python main.py
 - **User Input:** "I'm feeling really stressed about my exams."
 - **System Output:** [Recognize:sadness] (SPEECH)"I understand that exams can be overwhelming. Have you tried taking short breaks to relax?"
 
-
-## License
-
-This project is licensed under the MIT License - see the  file for details.
 
 ## Acknowledgments
 
