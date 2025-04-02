@@ -1,0 +1,8 @@
+/config
+config.py
+/idea
+/gguf/unsloth.Q4_K_M.gguf
+/llm_model
+/unsloth_compiled_cache
+/lora/lora_model
+/lora/lora_model.zip
