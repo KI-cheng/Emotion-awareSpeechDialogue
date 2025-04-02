@@ -1,5 +1,7 @@
+import time
+
 from LLMClient import LLMClient
-from model_loader import Qwen
+from unsloth_loader import unsloth_Qwen
 from tts_client import request_setting
 from vad import record_and_process
 
@@ -12,9 +14,11 @@ def wav_to_text(asr):
 
 def main(asr, qwen, gpt):
     while True:
-        ask, emotion = wav_to_text(asr)
-        print(ask)
-        print(emotion)
+        first = time.time()
+        # ask, emotion = wav_to_text(asr)
+        # print(ask)
+        # print(emotion)
+        ask = "Hi, What about today's weather?"
         print("Qwen2.5_7B进行情感识别...")
         emo = qwen.identification(ask).strip()
         print(f"情感识别为{emo}!")
@@ -23,6 +27,7 @@ def main(asr, qwen, gpt):
         print(f"CyberPet:{reply}")
         print("reply转发至tts模块...")
         request_setting(text=reply)
+        print(time.time()-first)
 
 
 if __name__ == "__main__":
@@ -32,7 +37,7 @@ if __name__ == "__main__":
     asr = SpeechRecognizer()
     print("ASR模型已加载...")
     print("Qwen2.5_7B加载中...")
-    qwen = Qwen()
+    qwen = unsloth_Qwen()
     print("Qwen2.5_7B已加载...")
     print("gpt-turbo-3.5加载中...")
     gpt = LLMClient()
