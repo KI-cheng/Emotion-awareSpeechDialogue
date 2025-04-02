@@ -81,8 +81,6 @@ conda activate unsloth_env
 pip install xformers
 pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
 pip install --no-deps trl peft accelerate bitsandbytes
-
-
 ```
 
 #### ASR Module Environment
@@ -138,7 +136,7 @@ Finally, you can add the wav files as the target audio to the reference folder, 
 Start the main application, which handles ASR, emotion recognition, and response generation:
 
 ```
-conda activate main_env python main.py
+conda activate unsloth_env python main.py
 ```
 
 ### Interact with the System
@@ -149,7 +147,7 @@ conda activate main_env python main.py
 #### Example Interaction
 
 - **User Input:** "I'm feeling really stressed about my exams."
-- **System Output:** [Recognize:sadness] "I understand that exams can be overwhelming. Have you tried taking short breaks to relax?"
+- **System Output:** [Recognize:sadness] (SPEECH)"I understand that exams can be overwhelming. Have you tried taking short breaks to relax?"
 
 
 ## License
