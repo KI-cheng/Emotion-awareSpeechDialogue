@@ -25,7 +25,7 @@ This project implements a lightweight, multimodal emotional dialogue system that
 ## Technologies Used
 
 - **Large Language Model:** [Qwen2.5-7B](https://github.com/QwenLM/Qwen2.5)
-- **Fine-Tuning:**  [Unsloth🦥](https://github.com/unslothai/unsloth)), SFT, LoRA 
+- **Fine-Tuning:**  [Unsloth🦥](https://github.com/unslothai/unsloth), SFT, LoRA 
 - **Speech Recognition:** [FunASR](https://github.com/modelscope/FunASR)
 - **Speech Synthesis:** [Fish-Speech](https://github.com/fishaudio/fish-speech)
 - **Framework:** PyTorch
@@ -158,3 +158,35 @@ This project is licensed under the MIT License - see the  file for details.
 
 - Thanks to the creators of Qwen2.5, LoRA, FunASR, Fish-Speech, and other open-source projects that enabled this work.
 - Special gratitude to the contributors and the open-source community.
+
+## Citation
+
+```
+@article{qwen2.5,
+    title   = {Qwen2.5 Technical Report}, 
+    author  = {An Yang and Baosong Yang and Beichen Zhang and Binyuan Hui and Bo Zheng and Bowen Yu and Chengyuan Li and Dayiheng Liu and Fei Huang and Haoran Wei and Huan Lin and Jian Yang and Jianhong Tu and Jianwei Zhang and Jianxin Yang and Jiaxi Yang and Jingren Zhou and Junyang Lin and Kai Dang and Keming Lu and Keqin Bao and Kexin Yang and Le Yu and Mei Li and Mingfeng Xue and Pei Zhang and Qin Zhu and Rui Men and Runji Lin and Tianhao Li and Tingyu Xia and Xingzhang Ren and Xuancheng Ren and Yang Fan and Yang Su and Yichang Zhang and Yu Wan and Yuqiong Liu and Zeyu Cui and Zhenru Zhang and Zihan Qiu},
+    journal = {arXiv preprint arXiv:2412.15115},
+    year    = {2024}
+}
+@software{unsloth,
+  author = {Daniel Han, Michael Han and Unsloth team},
+  title = {Unsloth},
+  url = {http://github.com/unslothai/unsloth},
+  year = {2023}
+}
+@inproceedings{gao2023funasr,
+  author={Zhifu Gao and Zerui Li and Jiaming Wang and Haoneng Luo and Xian Shi and Mengzhe Chen and Yabin Li and Lingyun Zuo and Zhihao Du and Zhangyu Xiao and Shiliang Zhang},
+  title={FunASR: A Fundamental End-to-End Speech Recognition Toolkit},
+  year={2023},
+  booktitle={INTERSPEECH},
+}
+@misc{fish-speech-v1.4,
+      title={Fish-Speech: Leveraging Large Language Models for Advanced Multilingual Text-to-Speech Synthesis},
+      author={Shijia Liao and Yuxuan Wang and Tianyu Li and Yifan Cheng and Ruoyi Zhang and Rongzhi Zhou and Yijin Xing},
+      year={2024},
+      eprint={2411.01156},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2411.01156},
+}
+```
