@@ -20,7 +20,7 @@ This project implements a lightweight, multimodal emotional dialogue system that
 - **Multilingual Support:** Handles multiple languages for broader accessibility.
 - **Efficient Fine-Tuning:** Utilizes LoRA for parameter-efficient fine-tuning, reducing resource requirements.
 - **Modular Architecture:** Easy to extend and maintain with a client-server setup.
-- ![training_and_evaluate_loss.png](fine_turning%2Ftraining_and_evaluate_loss.png)
+![training_and_evaluate_loss.png](fine_turning%2Ftraining_and_evaluate_loss.png)
 
 ## Technologies Used
 
@@ -32,7 +32,7 @@ This project implements a lightweight, multimodal emotional dialogue system that
 - **Audio Processing:** webrtcvad,pyaudio
 - **Module Communication:** FastAPI, Requests
 - **Monitoring:** Weights & Biases (wandb)
-- -![W&B Chart 2025_3_27 04_41_33.png](fine_turning%2FW%26B%20Chart%202025_3_27%2004_41_33.png)
+-![W&B Chart 2025_3_27 04_41_33.png](fine_turning%2FW%26B%20Chart%202025_3_27%2004_41_33.png)
 ![W&B Chart 2025_3_30 03_32_20.png](fine_turning%2FW%26B%20Chart%202025_3_30%2003_32_20.png)
 
 ## Setup and Installation
