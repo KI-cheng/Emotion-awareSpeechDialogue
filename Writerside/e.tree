@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="e"
-                 name="EASDS"
+                 name="EDS-LLM"
                  start-page="Emotional_dialogue_system.md">
 
     <toc-element topic="Emotional_dialogue_system.md"/>
