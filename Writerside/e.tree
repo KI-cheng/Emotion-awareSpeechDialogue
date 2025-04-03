@@ -4,7 +4,14 @@
 
 <instance-profile id="e"
                  name="EASDS"
-                 start-page="starter-topic.md">
+                 start-page="Emotional_dialogue_system.md">
 
-    <toc-element topic="starter-topic.md"/>
+    <toc-element topic="Emotional_dialogue_system.md"/>
+    <toc-element topic="Introduction.md"/>
+    <toc-element topic="Related-Work.md"/>
+    <toc-element topic="Methodology.md"/>
+    <toc-element topic="Implementation.md"/>
+    <toc-element topic="Conclusion.md"/>
+    <toc-element topic="References.md"/>
+    <toc-element topic="Our-Team.md"/>
 </instance-profile>

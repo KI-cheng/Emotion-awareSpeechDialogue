@@ -1,4 +1,4 @@
-# 9. Our Team
+# 7. Our Team
 
 ## Team Introduction
 

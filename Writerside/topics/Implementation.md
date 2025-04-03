@@ -42,7 +42,9 @@ Then there are five types: anger, fear, joy, love, sadness, and surprise. You ne
 ### 4.2.1 Loss
 
 ![cross_entropy](cross_entropy_loss.png)
+
 ![training_loss](training_loss.png)
+
 - Fig1 Training and test loss
 
 Initial stage (0-10 steps): The loss value starts at about 2.6, reaches a peak of about 2.8 around the second step, and then drops rapidly. This shows that the model learns very quickly in the early stages.
@@ -56,6 +58,7 @@ But the overall trend shows that the training is successful. As the training con
 ### 4.2.2 GradNorm
 
 ![training_grad_norm](training_grad_norm.png)
+
 - Fig2 Gradnorm values
 
 At the beginning of training (0-10 steps), the grad_norm value fluctuates between 0.8-1.0 and is relatively stable.

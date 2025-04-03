@@ -1,4 +1,4 @@
-# 8. References
+# 6. References
 
 [1] Pohanka, M. (2022). Progress in Biosensors for the Point-of-Care Diagnosis of COVID-19. Sensors, 22(19), 7423.
 
