@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This project implements a lightweight, multimodal emotional dialogue system that leverages large language models to recognize emotions from speech, generate empathetic responses, and provide voice-based interactions. It is designed to run efficiently on consumer hardware, making advanced emotional AI accessible to a wider audience.
+![framework.png](fine_tuning%2Fframework.png)
 
 | **Aspects**           | **Traditional systems**                  | **Our system**                     |
 | --------------------- | ---------------------------------------- | ---------------------------------- |
