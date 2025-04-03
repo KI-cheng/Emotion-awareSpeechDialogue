@@ -113,7 +113,7 @@ pip3 install -e .
 ## Usage
 **Hardware Requirements:**
 
-- **Training:** Colab T4. You can just open the fine-turing ipynb file to learn how it works.
+- **Training:** Colab T4. You can just open the fine-tuning ipynb file to learn how it works.
 - **Inference:** NVIDIA RTX 2060 6GB (Due to the author's hardware limitations, it can only run barely. Welcome everyone to run it on a better consumer-grade graphics card and tell me the feedback of the experience)
 
 ### Start the TTS Service
