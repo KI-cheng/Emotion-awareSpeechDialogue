@@ -34,7 +34,6 @@
   year={2023}
 }
 
-
 [4] Gulati, A., Qin, J., Chiu, C. C., Parmar, N., Zhang, Y., Yu, J., ... & Pang, R. (2020). Conformer: Convolution-augmented transformer for speech recognition. arXiv preprint arXiv:2005.08100.
 
 @article{gulati2020conformer,
@@ -120,4 +119,3 @@
   note         = {Retrieved March 29, 2025},
   howpublished = {\url{https://docs.unsloth.ai}}
 }
-

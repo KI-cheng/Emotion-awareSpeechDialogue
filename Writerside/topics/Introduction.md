@@ -9,4 +9,3 @@ This project proposes a lightweight multimodal emotional dialogue framework, and
 3. Designing a layered prompt word engineering, generating contextualized empathetic responses through the GPT proxy module.
 
 The system reduces deployment complexity through modular design and environmental isolation, providing a reference for educational practice and industrial application.
-
