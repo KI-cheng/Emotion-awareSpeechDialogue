@@ -6,3 +6,4 @@ config.py
 /unsloth_compiled_cache
 /lora/lora_model
 /lora/lora_model.zip
+main.tex
